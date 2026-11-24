@@ -22,8 +22,8 @@ header {
 
 .head-wrap {
   display: flex;
-  justify-content: space-between;
   padding-left: 4px;
+  justify-content: space-between;
   align-items: flex-end;
   align-self: stretch;
 }
@@ -59,6 +59,12 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 150% */
+}
+
+.images-wrap a,
+.head-wrap a {
+  display: flex; /* 또는 display: block; */
+  align-items: center;
 }
 
 /* Footer Styling */
